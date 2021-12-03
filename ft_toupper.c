@@ -22,16 +22,16 @@ int     main()
         int a = 1;
 
 
-        printf("My k Result is = %d\n", ft_isalpha(k));
-        printf("Real k Result is = %d\n", isalpha(k));
+        printf("My k Result is = %d\n", ft_toupper(k));
+        printf("Real k Result is = %d\n", toupper(k));
 
-        printf("My c Result is = %d\n", ft_isalpha(c));
-        printf("Real c Result is = %d\n", isalpha(c));
+        printf("My c Result is = %d\n", ft_toupper(c));
+        printf("Real c Result is = %d\n", toupper(c));
 
-        printf("My x Result is = %d\n", ft_isalpha(x));
-        printf("Real x Result is = %d\n", isalpha(x));
+        printf("My x Result is = %d\n", ft_toupper(x));
+        printf("Real x Result is = %d\n", toupper(x));
 
-        printf("My p Result is = %d\n", ft_isalpha(p));
-        printf("Real p Result is = %d\n", isalpha(p));
+        printf("My p Result is = %d\n", ft_toupper(p));
+        printf("Real p Result is = %d\n", toupper(p));
         return (0);
 }
